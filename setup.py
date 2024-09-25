@@ -4,7 +4,12 @@ setup(
     name="ml_library",
     version="0.1.0",
     packages=find_packages(),
-    install_requires=["numpy", "pandas", "scikit-learn"],
+    install_requires=[
+        "numpy",
+        "matplotlib",  # Add matplotlib for plotting
+        "pandas",
+        "scikit-learn"
+    ],
     author="Alfa Exelsior",
     description="A simple machine learning library",
     license="MIT",

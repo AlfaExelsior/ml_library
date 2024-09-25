@@ -1,3 +1,7 @@
 numpy
 pandas
 scikit-learn
+matplotlib
+torch             # PyTorch
+torchvision       # if you're working with vision models (optional)
+unittest          # for running tests (though this is built into Python)
